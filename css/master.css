@@ -122,6 +122,12 @@ body{
   height: 350px;
   border-radius: 10px;
 }
+/* fine portfolio */
+
+/* inizio about */
+.ms_about_text{
+  margin-bottom: 30px;
+}
 .ms_button{
   background-color: #1abc9c;
   border: 1px solid #fff;
@@ -130,15 +136,9 @@ body{
   padding: 10px;
   border-radius: 5px;
 }
-/* fine portfolio */
+/* fine about */
 
-/* inizio about */
-.ms_about_text{
-  margin-bottom: 30px;
-}
-.ms_form_box{
-  border-bottom: 1px solid #2c3e50;
-}
+/* inizio contact me */
 .ms_button_form{
   background-color: #1abc9c;
   color: #fff;
@@ -147,7 +147,7 @@ body{
   font-size: 1.3em;
   border: none;
 }
-/* fine about */
+/* fine contact me */
 
 /* inizio footer */
 footer .footer_section{
@@ -181,5 +181,47 @@ footer .company_credits p{
 /* fine footer */
 
 @media screen and (min-width: 992px) {
+  /* inizio tipografia */
+  h1{
+    font-size: 4.3em;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 3.3em;
+    font-weight: 600;
+  }
+  h4{
+    font-size: 1.8em;
+  }
+  p{
+    font-size: 1.5em;
+  }
+  /* fine tipografia */
 
+  /* inizio regole generali */
+    .ms_star::before,
+    .ms_star::after {
+    width: 150px;
+    }
+  /* fine regole generali */
+
+  /* inizio header */
+  .ms_navbar .ms_menu li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .ms_logo{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #fff;
+  }
+  /* fine header */
+
+  /* inizio portfolio */
+    .ms_project{
+      height: 350px;
+      border-radius: 10px;
+    }
+  /* fine portfolio */
 }
