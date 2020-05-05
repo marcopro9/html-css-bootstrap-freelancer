@@ -1,0 +1,185 @@
+/* tipografia */
+h1{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+h2{
+  font-size: 2em;
+  font-weight: 600;
+}
+p{
+  font-size: 1.3em;
+}
+/* fine tipografia */
+
+/* regole generali */
+body{
+  padding-top: 70px;
+}
+.wrapper_70{
+  max-width: 992px;
+  width: 65%;
+  margin: 0 auto;
+}
+.ms_section{
+  padding: 40px 0;
+}
+.ms_primary{
+  background-color: #1abc9c;
+  color: #fff;
+}
+.ms_secondary{
+  background-color: #fff;
+  color: #2c3e50;
+}
+.ms_secondary .ms_star{
+  color: inherit;
+}
+.ms_intro{
+  position: relative;
+}
+.fa-star{
+  font-size: 2em;
+  margin: 15px 0 40px;
+}
+.ms_star {
+  width: max-content;
+  margin: 10px auto;
+}
+.ms_star i {
+  margin: 15px;
+  font-size: 2.1em;
+}
+.ms_star::before,
+.ms_star::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #fff;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+.ms_blue::before,
+.ms_blue::after {
+  background-color: #2c3e50;
+}
+/* fine regole generali */
+
+/* header */
+.ms_navbar{
+  background-color: #2c3e50;
+  height: 70px;
+  color: #fff;
+  line-height: 70px;
+}
+.ms_navbar .ms_menu li a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.ms_navbar .ms_menu li a:hover{
+  text-decoration: none;
+  color: #1abc9c;
+}
+.ms_logo{
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fff;
+}
+.ms_logo:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.ms_burger{
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.ms_burger:hover{
+  color: #fff;
+}
+/* fine header */
+
+/* inizio jumbo */
+.ms_section_jumbo{
+  padding: 40px 0 80px;
+}
+.ms_avatar{
+  height: 275px;
+}
+/* fine jumbo */
+
+/* inizio portfolio */
+.ms_item{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.ms_project{
+  height: 350px;
+  border-radius: 10px;
+}
+.ms_button{
+  background-color: #1abc9c;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* fine portfolio */
+
+/* inizio about */
+.ms_about_text{
+  margin-bottom: 30px;
+}
+.ms_form_box{
+  border-bottom: 1px solid #2c3e50;
+}
+.ms_button_form{
+  background-color: #1abc9c;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 12px;
+  font-size: 1.3em;
+  border: none;
+}
+/* fine about */
+
+/* inizio footer */
+footer .footer_section{
+  padding: 40px 0;
+  color: #fff;
+}
+footer .footer_section i{
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 14px;
+  margin-right: 4px;
+  font-size: 1.5em;
+}
+footer .company_info{
+  background-color: #3a546c;
+}
+footer .company_info h4{
+  margin: 30px 0 10px;
+}
+footer .company_info span{
+  color: #1abc9c;
+}
+footer .company_credits{
+  background-color: #2c3e50;
+}
+footer .company_credits p{
+  font-size: 1em;
+}
+/* fine footer */
+
+@media screen and (min-width: 992px) {
+
+}
